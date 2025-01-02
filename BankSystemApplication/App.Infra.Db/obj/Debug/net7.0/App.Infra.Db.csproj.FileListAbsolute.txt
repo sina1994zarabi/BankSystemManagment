@@ -1,0 +1,15 @@
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\bin\Debug\net7.0\App.Infra.Db.deps.json
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\bin\Debug\net7.0\App.Infra.Db.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\bin\Debug\net7.0\App.Infra.Db.pdb
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\bin\Debug\net7.0\App.Domain.Core.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\bin\Debug\net7.0\App.Domain.Core.pdb
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\App.Infra.Db.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\App.Infra.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\App.Infra.Db.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\App.Infra.Db.AssemblyInfo.cs
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\App.Infra.Db.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\App.Infra.Db.csproj.CopyComplete
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\App.Infra.Db.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\refint\App.Infra.Db.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\App.Infra.Db.pdb
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Infra.Db\obj\Debug\net7.0\ref\App.Infra.Db.dll

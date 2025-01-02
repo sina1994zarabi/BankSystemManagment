@@ -1,0 +1,100 @@
+﻿@model App.Domain.Core.Entities.User;
+
+@{
+	ViewData["Title"] = "Login";
+}
+
+@*<h2>Login</h2> 
+<form asp-action="Login" method="post">
+	<div class="form-group">
+		<label asp-for="Username" class="control-label"></label>
+		<input asp-for="Username" class="form-control" />
+		<span asp-validation-for="Username" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="Password" class="control-label"></label>
+		<input asp-for="Password" class="form-control" />
+		<span asp-validation-for="Password" class="text-danger"></span>
+	</div> 
+	<div class="form-group">
+		<input type="submit" value="Login" class="btn btn-primary" />
+	</div>
+	</form>
+	<div class="text-danger">
+		@Html.ValidationSummary()
+	</div>*@
+	<div class = "loginform">
+		<h1>Welcom To X Bank</h1>
+		<h2>Login</h2>
+		<form asp-action="Login" method = "post">
+			<label asp-for="Username"></label>
+			<input asp-for="Username" id="username" placeholder = "Enter your username" required>
+			<span  asp-validation-for="Username" class = "text-danger">
+			@if (TempData["ErrorMessage"] != null && TempData["ErrorMessage"].ToString().StartsWith('U'))
+			{
+				@TempData["ErrorMessage"]
+			}
+		</span>
+
+			<label asp-for="Password"></label>
+			<input asp-for="Password" type="password" id="password"  placeholder="Enter your password" required>
+			<span asp-validation-for="Password" class="text-danger">
+			@if (TempData["ErrorMessage"] != null && !TempData["ErrorMessage"].ToString().StartsWith('U'))
+			{
+				@TempData["ErrorMessage"]
+			}
+		</span>
+			<button type="submit">Login</button>
+		</form>
+	</div>
+
+<style>
+		.loginform {
+	width: 350px;
+	margin: 100px auto;
+	padding: 25px;
+	background: #ffffff;
+	border: 2px solid #007bff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	font-size: 26px;
+	color: #007bff;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+}
+
+form input {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+form button {
+	width: 100%;
+	padding: 12px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+form button:hover {
+	background-color: #0056b3;
+}
+</style>

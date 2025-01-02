@@ -1,0 +1,17 @@
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\App.Domain.Services.Service.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\App.Domain.Services.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\App.Domain.Services.Service.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\App.Domain.Services.Service.AssemblyInfo.cs
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\App.Domain.Services.Service.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\bin\Debug\net7.0\App.Domain.Services.Service.deps.json
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\bin\Debug\net7.0\App.Domain.Services.Service.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\bin\Debug\net7.0\App.Domain.Services.Service.pdb
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\bin\Debug\net7.0\App.Domain.Core.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\bin\Debug\net7.0\App.Infra.EfCore.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\bin\Debug\net7.0\App.Domain.Core.pdb
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\bin\Debug\net7.0\App.Infra.EfCore.pdb
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\App.Domain.Services.Service.csproj.CopyComplete
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\App.Domain.Services.Service.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\refint\App.Domain.Services.Service.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\App.Domain.Services.Service.pdb
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Services.Service\obj\Debug\net7.0\ref\App.Domain.Services.Service.dll

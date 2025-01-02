@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConsoleTables" Version="2.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Domain.Core\App.Domain.Core.csproj" />
+    <ProjectReference Include="..\App.Domain.Services.AppService\App.Domain.Services.AppService.csproj" />
+    <ProjectReference Include="..\App.Domain.Services.Service\App.Domain.Services.Service.csproj" />
+    <ProjectReference Include="..\App.Infra.EfCore\App.Infra.EfCore.csproj" />
+  </ItemGroup>
+
+</Project>

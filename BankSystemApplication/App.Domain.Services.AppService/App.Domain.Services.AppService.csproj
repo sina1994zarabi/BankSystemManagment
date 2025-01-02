@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Domain.Core\App.Domain.Core.csproj" />
+    <ProjectReference Include="..\App.Domain.Services.Service\App.Domain.Services.Service.csproj" />
+    <ProjectReference Include="..\App.Infra.Db\App.Infra.Db.csproj" />
+    <ProjectReference Include="..\App.Infra.EfCore\App.Infra.EfCore.csproj" />
+  </ItemGroup>
+
+</Project>

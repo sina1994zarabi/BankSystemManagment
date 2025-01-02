@@ -1,0 +1,16 @@
+﻿@{
+	ViewData["Title"] = "Transfer Completion";
+}
+@if (TempData["ErrorMessage"] != null)
+{
+	<div class = "alert alert-danger">
+		@TempData["ErrorMessage"]
+	</div>
+}
+else
+{
+	<h2>Successfull Withdrawal</h2>
+}
+<form asp-action="RedirectToUserPanel" method="post">
+		<button type="submit" class="btn btn-primary">Back To User Panel</button>
+	</form>

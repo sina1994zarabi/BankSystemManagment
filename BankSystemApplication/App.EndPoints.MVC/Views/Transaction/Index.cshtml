@@ -1,0 +1,89 @@
+﻿@{
+	ViewData["Title"] = "Make A Transaction";
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+		<div class = "alert alert-danger">
+			@TempData["ErrorMessage"]
+		</div>
+}
+
+<div class = "formcontainer">
+<h2>Make A Transaction</h2>
+
+<form  asp-action = "TransactionCredentials" method = "post" onsubmit = "return ValidateForm()">
+	<div class = "form-group">
+		<label for = "number" class = "control-label">Destination Card Number</label>
+		<input id = "number" name = "destinationCardNumber" class="form-control" />
+		<span id = "numberError" class = "text-danger"></span>
+	</div>
+	<div class = "form-group">
+		<label for = "amount" class = "control-label">Amount</label>
+		<input id = "amount" name = "amount" class="form-control" />
+		<span id = "amountError" class = "text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type = "submit" value= "Submit" class = "btn btn-primary" />
+		<a asp-controller = "User" asp-action = "UserPanel" class= "btn btn-secondary">Back</a>
+	</div>
+</form>
+</div>
+<div class = "text-danger">
+	@Html.ValidationSummary()
+</div>
+
+
+<style>
+	.formcontainer
+	{
+		width: 350px;
+		margin: 100px auto;
+		padding: 25px;
+		background: #ffffff;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+	h2 {
+	font-size: 26px;
+	color: ##007bff;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+</style>
+
+<script>
+	function ValidateForm()
+	{
+		let isValid = true;
+		var cardNumber = document.getElementById("number").value;
+		var amount = document.getElementById("amount").value;
+		document.getElementById("numberError").innerText = "";
+		document.getElementById("amountError").innerText = "";
+		let nonDigitRegex = /\D/;
+		if (cardNumber == "" || cardNumber == null)
+		{ 
+			document.getElementById("numberError").innerText = "Card number field can not be empty";
+			isValid = false;
+		}
+		else if (cardNumber.length < 16)
+		{
+			document.getElementById("numberError").innerText = "Card number must be at least 16 digits long";
+			isValid = false;
+		}
+		else if (nonDigitRegex.test(cardNumber))
+		{
+			document.getElementById("numberError").innerText = "Enter A Valid Card Number";
+			isValid = false;
+		}
+		if (amount == "" || amount == null || amount <= 0 || isNaN(amount))
+		{
+			document.getElementById("amountError").innerText = "Please enter a valid amount";
+			isValid = false;
+		} 
+		return isValid;
+	}
+</script>
+
+
+

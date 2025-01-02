@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "App.Infra.Db/1.0.0": {
+        "dependencies": {
+          "App.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "App.Infra.Db.dll": {}
+        }
+      },
+      "App.Domain.Core/1.0.0": {
+        "runtime": {
+          "App.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App.Infra.Db/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "App.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

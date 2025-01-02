@@ -1,0 +1,43 @@
+﻿@model App.Domain.Core.Entities.Card;
+
+@{
+	ViewData["Title"] = "View Details";
+}
+
+<h2>Card Details</h2>
+<div class="card">
+	<div class="card-header">
+		<h3>Card Information</h3>
+	</div>
+	<div class="card-body">
+		<p><strong>Card Number:</strong> @Model.CardNumber</p>
+		<p><strong>Balance:</strong> @Model.Balance.ToString("C")</p>
+	</div>
+	<div class="card-footer">
+		<a asp-action = "UserPanel" asp-controller="User" class="btn btn-secondary">Back</a>
+	</div>
+</div>
+<style>
+	.card 
+	{
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 20px;
+		margin: 20px 0;
+	} 
+	.card-header 
+	{ 
+		background-color: #f8f9fa;
+		padding: 10px;
+		border-bottom: 1px solid #ccc;
+	}
+	.card-body 
+	{ 
+		padding: 10px;
+	} 
+	.card-footer 
+	{ 
+		padding: 10px;
+		text-align: right;
+	}
+</style>

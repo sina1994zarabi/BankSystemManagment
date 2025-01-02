@@ -1,0 +1,12 @@
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\bin\Debug\net7.0\App.Domain.Core.deps.json
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\bin\Debug\net7.0\App.Domain.Core.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\bin\Debug\net7.0\App.Domain.Core.pdb
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\obj\Debug\net7.0\App.Domain.Core.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\obj\Debug\net7.0\App.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\obj\Debug\net7.0\App.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\obj\Debug\net7.0\App.Domain.Core.AssemblyInfo.cs
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\obj\Debug\net7.0\App.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\obj\Debug\net7.0\App.Domain.Core.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\obj\Debug\net7.0\refint\App.Domain.Core.dll
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\obj\Debug\net7.0\App.Domain.Core.pdb
+C:\Users\dell\Desktop\BackEnd Development\MaktabTasks\HW_19\BankSystemApplication\App.Domain.Core\obj\Debug\net7.0\ref\App.Domain.Core.dll

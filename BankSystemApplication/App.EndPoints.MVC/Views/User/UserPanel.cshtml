@@ -1,0 +1,39 @@
+﻿@model App.Domain.Core.Entities.User
+
+@{
+	ViewData["Title"] = "User Panel";
+}
+
+<div class = "PanelContainer">
+	<div class = "Menu">
+		<h2>Welcome @Model.Name</h2>
+		<p>Please choose an option:</p>
+		<div class = "btn-group-vertical" role="group" aria-label="Bank Options">
+			<a asp-controller="Transaction" asp-action="Index" class="btn btn-primary">Make A Transaction</a>
+			<a asp-controller="Card" asp-action="Index" class="btn btn-secondary">View Balance</a>
+			<a asp-controller="Card" asp-action="ViewHistory" class="btn btn-info">View History</a>
+			<a asp-controller="User" asp-action="Index" class="btn btn-danger">Exit</a>
+		</div>
+	</div>
+</div>
+
+<style>
+	.PanelContainer {
+	width: 350px;
+	margin: 100px auto;
+	padding: 25px;
+	background: #ffffff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Menu {
+	text-align: center;
+}
+h2 {
+	font-size: 20px;
+	color: #007bff;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+}	
+
+</style>

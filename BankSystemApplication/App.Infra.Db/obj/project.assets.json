@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "App.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/App.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "App.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../App.Domain.Core/App.Domain.Core.csproj",
+      "msbuildProject": "../App.Domain.Core/App.Domain.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "App.Domain.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dell\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dell\\Desktop\\BackEnd Development\\MaktabTasks\\HW_19\\BankSystemApplication\\App.Infra.Db\\App.Infra.Db.csproj",
+      "projectName": "App.Infra.Db",
+      "projectPath": "C:\\Users\\dell\\Desktop\\BackEnd Development\\MaktabTasks\\HW_19\\BankSystemApplication\\App.Infra.Db\\App.Infra.Db.csproj",
+      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dell\\Desktop\\BackEnd Development\\MaktabTasks\\HW_19\\BankSystemApplication\\App.Infra.Db\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\dell\\Desktop\\BackEnd Development\\MaktabTasks\\HW_19\\BankSystemApplication\\App.Domain.Core\\App.Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\dell\\Desktop\\BackEnd Development\\MaktabTasks\\HW_19\\BankSystemApplication\\App.Domain.Core\\App.Domain.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
