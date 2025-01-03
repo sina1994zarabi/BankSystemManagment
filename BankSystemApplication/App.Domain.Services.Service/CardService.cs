@@ -14,9 +14,9 @@ namespace App.Domain.Services.Service
     {
         private readonly ICardRepository _cardRepository;
 
-        public CardService()
+        public CardService(ICardRepository cardRepository)
         {
-            _cardRepository = new CardRepositoy();
+            _cardRepository = cardRepository;
         }
 
         public void Add(Card newCard)

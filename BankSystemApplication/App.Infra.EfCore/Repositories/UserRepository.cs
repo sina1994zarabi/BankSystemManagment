@@ -6,7 +6,12 @@ namespace App.Infra.EfCore.Repositories
 {
     public class UserRepository : IUserRepository
     {
-        AppDbContext _dbContext = new AppDbContext();
+        private readonly AppDbContext _dbContext;
+
+        public UserRepository(AppDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         public void Add(User user)
         {

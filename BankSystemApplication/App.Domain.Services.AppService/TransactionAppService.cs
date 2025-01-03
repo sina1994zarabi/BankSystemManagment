@@ -12,24 +12,25 @@ namespace App.Domain.Services.AppService
 {
     public class TransactionAppService : ITransactionAppService
     {
-        ICardService _cardService;
-        ITransactionService _transactionService;
-        IUserRepository _userRepository;
-        IVerificationAppService _verificationAppService;
+        private readonly ICardService _cardService;
+        private readonly ITransactionService _transactionService;
+        private readonly IUserService _userService;
+        private readonly IVerificationAppService _verificationAppService;
 
 
 
-        public TransactionAppService()
+        public TransactionAppService(ICardService cardService,ITransactionService transactionService,
+                                     IUserService userService,IVerificationAppService verificationAppService)
         {
-            _cardService = new CardService();
-            _transactionService = new TransactionService();
-            _userRepository = new UserRepository();
-            _verificationAppService = new VerificationAppService();
+            _cardService = cardService;
+            _transactionService = transactionService;
+            _userService = userService;
+            _verificationAppService = verificationAppService;
         }
 
         public CardInfoDto GetDistinationInfo(string cardNumber)
         {
-            var user = _userRepository.GetByCardNumber(cardNumber);
+            var user = _userService.GetByCardNumber(cardNumber);
             return new CardInfoDto { Cardnumber = cardNumber,Holdername = user.Name };
         }
 
