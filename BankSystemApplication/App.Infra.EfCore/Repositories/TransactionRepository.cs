@@ -8,9 +8,14 @@ namespace App.Infra.EfCore.Repositories
 {
 	public class TransactionRepository : ITransactionRepository
 	{
-		AppDbContext _dbContext = new AppDbContext();
+		private readonly AppDbContext _dbContext;
 
-		public void Add(Transaction transaction)
+        public TransactionRepository(AppDbContext dbContext)
+        {
+			_dbContext = dbContext;
+        }
+
+        public void Add(Transaction transaction)
 		{
 			_dbContext.Transactions.Add(transaction);
 			_dbContext.SaveChanges();

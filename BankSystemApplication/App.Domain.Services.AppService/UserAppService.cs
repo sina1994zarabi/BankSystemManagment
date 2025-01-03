@@ -12,9 +12,9 @@ namespace App.Domain.Services.AppService
     {
         private readonly IUserService _userService;
 
-        public UserAppService()
+        public UserAppService(IUserService userService)
         {
-            _userService = new UserService();
+            _userService = userService;
         }
 
         public Card GetUserCard(int id)

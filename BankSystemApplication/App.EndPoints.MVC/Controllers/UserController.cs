@@ -11,9 +11,9 @@ namespace App.EndPoints.MVC.Controllers
 
         private readonly IUserAppService _userAppService;
 
-        public UserController()
+        public UserController(IUserAppService userAppService)
         {
-            _userAppService = new UserAppService();
+            _userAppService = userAppService;
         }
 
         public IActionResult Index()

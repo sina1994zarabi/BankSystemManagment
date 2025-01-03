@@ -9,9 +9,9 @@ namespace App.Domain.Services.Service
     {
         private readonly IUserRepository _userRepository;
 
-        public UserService()
+        public UserService(IUserRepository userRepository)
         {
-            _userRepository = new UserRepository();
+            _userRepository = userRepository;
         }
 
         public void Add(User user)

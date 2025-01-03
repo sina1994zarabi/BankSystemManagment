@@ -17,10 +17,10 @@ namespace App.Domain.Services.AppService
 		private readonly ICardService _cardService;
 		private readonly IUserService _userService;
 
-        public CardAppService()
+        public CardAppService(ICardService cardService,IUserService userService)
         {
-			_cardService = new CardService();
-			_userService = new UserService();
+			_cardService = cardService;
+			_userService = userService;
         }
 
 		public bool ConfirmTransaction(int sourceId, decimal amount, string destinationNumber)

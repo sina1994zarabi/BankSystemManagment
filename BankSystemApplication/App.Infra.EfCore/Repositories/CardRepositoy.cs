@@ -7,8 +7,13 @@ namespace App.Infra.EfCore.Repositories
 {
     public class CardRepositoy : ICardRepository
     {
-        AppDbContext _dbContext = new AppDbContext();
+        private readonly AppDbContext _dbContext;
 
+
+        public CardRepositoy(AppDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         public void Add(Card newCard)
         {

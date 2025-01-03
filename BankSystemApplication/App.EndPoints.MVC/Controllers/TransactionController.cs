@@ -12,12 +12,15 @@ namespace App.EndPoints.MVC.Controllers
 		private readonly IUserAppService _userAppService;
 		private readonly IVerificationAppService _verificationAppService;
 
-		public TransactionController()
+		public TransactionController(ITransactionAppService transactionAppService,
+									ICardAppService cardAppService,
+									IUserAppService userAppService,
+									IVerificationAppService verificationAppService)
 		{
-			_transactionAppService = new TransactionAppService();
-			_cardAppService = new CardAppService();
-			_userAppService = new UserAppService();
-			_verificationAppService = new VerificationAppService();
+			_transactionAppService = transactionAppService;
+			_cardAppService = cardAppService;
+			_userAppService = userAppService;
+			_verificationAppService = verificationAppService;
 		}
 
 		public IActionResult Index()
@@ -63,7 +66,7 @@ namespace App.EndPoints.MVC.Controllers
 				else
 				{
 					TempData["ErrorMessage"] = "Verification Code Expired";
-					return View();
+					return View("Verify");
 				}
 			}
 			TempData["ErrorMessage"] = "Incorrect Verification Code. Try Again";

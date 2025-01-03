@@ -9,7 +9,8 @@
 <form asp-action="CheckVerificationCode" method="post">
 	<div class="form-group">
 		<label for = "code" class="control-label"> Verification Code </label> 
-		<input id = "code" name = "inputCode" class="form-control" /><span class="text-danger">
+		<input id = "code" name = "inputCode" class="form-control" />
+		<span class="text-danger">
 				@if (TempData["ErrorMessage"] != null)
 				{
 					<div class = "alert alert-danger">

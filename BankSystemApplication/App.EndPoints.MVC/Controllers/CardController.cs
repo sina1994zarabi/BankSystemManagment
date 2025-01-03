@@ -10,10 +10,10 @@ namespace App.EndPoints.MVC.Controllers
 		private readonly ICardAppService _cardAppService;
 		private readonly ITransactionAppService _transactionAppService;
 
-        public CardController()
+        public CardController(ICardAppService cardAppService,ITransactionAppService transactionAppService)
         {
-			_cardAppService = new CardAppService();
-			_transactionAppService = new TransactionAppService();
+			_cardAppService = cardAppService;
+			_transactionAppService = transactionAppService;
         }
 
         public IActionResult Index()

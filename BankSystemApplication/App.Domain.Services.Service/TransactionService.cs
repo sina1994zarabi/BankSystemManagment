@@ -15,9 +15,9 @@ namespace App.Domain.Services.Service
     {
         private readonly ITransactionRepository _transactionRepository;
 
-        public TransactionService()
+        public TransactionService(ITransactionRepository transactionRepository)
         {
-            _transactionRepository = new TransactionRepository();
+            _transactionRepository = transactionRepository;
         }
 
         public void Add(Transaction newTransaction)
